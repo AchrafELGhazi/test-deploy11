@@ -36,7 +36,7 @@ const ProjectSection: React.FC = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
       >
-        Unraveling the Gumball-verse: A Totally Serious* Investigation
+        Unraveling the Gumball-verse: A Serious Study of Fandom's Impact
       </motion.h2>
       <motion.p
         className='text-xl text-blue-500 text-center mb-12 italic'
@@ -44,7 +44,8 @@ const ProjectSection: React.FC = () => {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.3 }}
       >
-        *Warning: May contain traces of humor, sarcasm, and animated blue cats
+        Exploring how fandoms shape culture, influence society, and transform 
+        everyday lives through their passion and creativity.
       </motion.p>
 
       <motion.div
@@ -53,29 +54,20 @@ const ProjectSection: React.FC = () => {
         animate='visible'
         className='space-y-8'
       >
-        {[
-          {
+        {[{
             icon: <FaLaughSquint className='text-4xl text-yellow-400 mr-4' />,
             title: 'The Gumball Effect',
-            description: `We're diving headfirst into the wacky world of 
-              The Amazing World of Gumball fandom. It's like studying a parallel universe where 
-              blue cats rule and logic takes a permanent vacation. Our mission? To figure out how this 
-              show turned normal, sane people into Gumball-quoting, fanart-creating superhumans!`,
+            description: `Fandoms like "The Amazing World of Gumball" are not just about watching a show, but about how they foster a unique culture of engagement, creativity, and social bonding. By studying this fandom, we aim to understand how a simple animated series can catalyze such a passionate following, creating a subculture that transcends the show itself.`,
           },
           {
             icon: <FaMagic className='text-4xl text-purple-400 mr-4' />,
-            title: 'The Fandom Face-Off',
-            description: `We're putting Gumball fans in a metaphorical wrestling ring with 
-              Steven Universe and Adventure Time enthusiasts. Don't worry, no actual 
-              wrestling involved (we can't afford the insurance). We're just seeing how these fandoms celebrate 
-              their favorite shows and accidentally make them culturally significant. Oops!`,
+            title: 'Fandom Dynamics',
+            description: `In this section, we analyze how Gumball fans interact with fans of other major shows like "Steven Universe" and "Adventure Time." These communities share a collective identity formed through fan art, memes, and online discussions, helping fans form new connections that often reshape how they see themselves and their place in the world.`,
           },
           {
             icon: <FaChartPie className='text-4xl text-green-400 mr-4' />,
-            title: 'The Grand Fandom Experiment',
-            description: `Armed with research, data visualization, and a healthy dose of caffeine, 
-              we're uncovering how Gumball fans are secretly reshaping society. Are memes the new currency? 
-              Is cosplay the future of fashion? We're asking the hard-hitting questions here, folks!`,
+            title: 'The Social Impact of Fandoms',
+            description: `Fandoms are more than just fanclubs; they are social movements in their own right. Using data-driven analysis, we explore how these fandoms are influencing societal norms, from the rise of memes as a communication tool to the integration of cosplay in mainstream culture. This section investigates the broader impact of these subcultures on trends in fashion, technology, and social activism.`,
           },
         ].map((item, index) => (
           <motion.div
@@ -99,8 +91,8 @@ const ProjectSection: React.FC = () => {
         transition={{ delay: 1.5 }}
       >
         <p className='text-lg text-blue-600 italic'>
-          "If you're not a little confused, we're not doing our job right." -
-          The Research Team, probably
+          "Fandoms are not just about fans; they are communities that help shape the culture of the digital age." - 
+          The Research Team
         </p>
       </motion.div>
     </section>

@@ -1,22 +1,21 @@
 import { motion } from 'framer-motion';
 import React from 'react';
 
-
 const EditSection: React.FC = () => {
   const videoEdits = [
     {
-      title: 'Epic Gumball Adventure',
-      videoSrc: 'src/assets/aa.MOV', // Replace with your actual video URL
+      title: 'Animated Adventure Remix',
+      videoSrc: '../../assets/aa.MOV', // Replace with your actual video URL
       description:
-        'Join Gumball and Darwin in this exciting, over-the-top adventure through their world. It’s all about fun and surprises!',
-      tags: ['Adventure', 'Gumball', 'Fandom'],
+        'An exciting, over-the-top adventure that showcases the best moments from our favorite animated series.',
+      tags: ['Adventure', 'Remix', 'Fandom'],
     },
     {
-      title: 'Darwin’s Meme Challenge',
-      videoSrc: 'src/assets/bb.MOV', // Replace with your actual video URL
+      title: 'Cartoon Meme Mashup',
+      videoSrc: '../../assets/bb.MOV', // Replace with your actual video URL
       description:
-        'Watch Darwin take on the latest meme trends and dance challenges in his own hilarious style. Gumball fans won’t want to miss this!',
-      tags: ['Dance', 'Meme', 'Funny', 'Darwin', 'Gumball'],
+        'A hilarious compilation of cartoon characters taking on the latest meme trends and dance challenges. Fans of all ages will love this creative edit!',
+      tags: ['Meme', 'Funny'],
     },
   ];
 
@@ -43,7 +42,7 @@ const EditSection: React.FC = () => {
   };
 
   return (
-    <section className='py-20 bg-white rounded-xl'>
+    <section className='py-20 bg-gradient-to-br from-blue-50 to-purple-100 rounded-xl'>
       <motion.div
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
@@ -51,12 +50,19 @@ const EditSection: React.FC = () => {
         className='text-center mb-12'
       >
         <h2 className='text-5xl font-extrabold mb-4 text-blue-600'>
-          The Gumball Edit Section
+          Fan Edit Showcase
         </h2>
-        <p className='text-xl mx-10 font-medium text-sky-700'>
-          Enjoy these fun video edits we made as a tribute to our favorite blue
-          cat and his colorful adventures!
+        <p className='text-xl mx-auto max-w-3xl font-medium text-sky-700 mb-8'>
+          Dive into the world of fan-made edits, where creativity knows no bounds!
         </p>
+        <motion.p 
+          className='text-lg mx-auto max-w-4xl text-gray-700'
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.3, duration: 0.5 }}
+        >
+          In the realm of new media technology, fan edits represent a powerful and important means of expressing fandom and love for various media properties. These creative works, born from the passion of fans, showcase the intersection of technology, artistry, and community engagement. By remixing, recontextualizing, and reimagining their favorite content, fans not only demonstrate their deep connection to the source material but also contribute to the evolving narrative surrounding it. This participatory culture, as described by Henry Jenkins, transforms consumers into active producers, blurring the lines between creator and audience. Fan edits serve as a testament to the democratization of media production, allowing individuals to share their unique perspectives and interpretations with a global community of like-minded enthusiasts.
+        </motion.p>
       </motion.div>
 
       <motion.div
@@ -99,5 +105,5 @@ const EditSection: React.FC = () => {
   );
 };
 
-
 export default EditSection;
+

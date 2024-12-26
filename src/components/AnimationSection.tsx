@@ -20,7 +20,7 @@ const AnimationSection: React.FC = () => {
           loop
         >
           <source
-            src='src/assets/new-media.mp4' // Replace with your video URL
+            src='../../assets/new-media.mp4' // Replace with your video URL
             type='video/mp4'
           />
           Your browser does not support the video tag.

@@ -5,32 +5,35 @@ const TeamSection: React.FC = () => {
   const teamMembers = [
     {
       name: 'Achraf EL GHAZI',
-      image: 'src/assets/Screenshot 2024-12-22 202851.png',
+      image: '../../assets/Screenshot 2024-12-22 202851.png',
       description:
         "Our resident 'bug whisperer'. He doesn't just fix bugs, he negotiates with them until they leave voluntarily.",
       role: 'Code Ninja',
     },
     {
       name: 'Alyâa Zahzouhi',
-      image: 'src/assets/Screenshot 2024-12-22 202821.png',
+      image: '../../assets/Screenshot 2024-12-22 202821.png',
       description:
-        "She can turn coffee into code faster than Gumball can cause chaos. It's her superpower!",
-      role: 'Caffeine-Powered Developer',
-    },
-    {
-      name: 'Noura Kassas',
-      image: 'src/assets/Screenshot 2024-12-22 202835.png',
-      description:
-        "Our UX wizard. She can make even Darwin understand complex user interfaces. Now that's talent!",
-      role: 'Pixel Perfectionist',
-    },
-    {
-      name: 'Rania Amazoz',
-      image: 'src/assets/Screenshot 2024-12-22 202905.png',
-      description:
-        "She doesn't just think outside the box, she questions the existence of the box in the first place.",
-      role: 'Idea Alchemist',
-    },
+        "She’s the energetic, dance-loving coder who can turn any bug into a groove. Her dance moves are as fast as her code!",
+      role: 'Code Dancing Dynamo',
+    }
+,    
+{
+  name: 'Noura Kassas',
+  image: '../../assets/Screenshot 2024-12-22 202835.png',
+  description:
+"Oh, it’s Noura, the wizard who makes even Darwin look like a design pro. Truly a pixel artist.",
+  role: 'Master of Overly Perfect Pixels',
+}
+,
+{
+  name: 'Rania Amazoz',
+  image: '../../assets/Screenshot 2024-12-22 202905.png',
+  description:
+"Oh, it’s Rania, who doesn’t just think outside the box—she’s too busy traveling and creating content that breaks it.",
+  role: 'World-Travelling Content Creator',
+}
+,
   ];
 
   const containerVariants = {

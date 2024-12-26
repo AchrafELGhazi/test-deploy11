@@ -9,7 +9,7 @@ const ShowcaseSection: React.FC = () => {
     {
       type: 'Animation',
       title: "Gumball's Interdimensional Escapade",
-      src: 'src/assets/b.jpg',
+      src: '../../assets/b.jpg',
       description:
         "Watch Gumball navigate through parallel universes. It's like 'Rick and Morty', but with more blue cats!",
       link: '/AnimationSection',
@@ -17,7 +17,7 @@ const ShowcaseSection: React.FC = () => {
     {
       type: 'Drawing',
       title: 'Gumball and Darwin: Meme Lords',
-      src: 'src/assets/c.jpg',
+      src: '../../assets/c.jpg',
       description:
         "Our dynamic duo reimagined as internet meme gods. Darwin's 'surprised Pikachu face' is spot on!",
       link: '/DrawingSection', // Placeholder link for the drawing section
@@ -25,7 +25,7 @@ const ShowcaseSection: React.FC = () => {
     {
       type: 'Edit',
       title: 'Elmore: Cyberpunk Edition',
-      src: 'src/assets/a.jpg',
+      src: '../../assets/a.jpg',
       description:
         'Elmore in 2077 Where the vending machines have more personality than some characters (looking at you, Banana Joe).',
       link: '/EditSection', // Placeholder link for the edit section

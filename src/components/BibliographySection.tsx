@@ -28,7 +28,7 @@ const annotatedBibliography: BibliographySource[] = [
     documentLink:
       'https://alakhawayn365-my.sharepoint.com/:w:/g/personal/a_elghazi_aui_ma/EZos0Fya7cpEkDRmpkhWZW8B2zKdwKt3-PRZQfbN_NOsoQ?e=kxLuXc',
     resources:
-      'The Amazing World of Gumball Wiki. Fandom. (n.d.). https://theamazingworldofgumball.fandom.com/wiki/The_Amazing_World_of_Gumball_Wiki',
+      'The Amazing World of Gumball Wiki. Fandom. (n.d.).',
     summary:
       'This wiki contains comprehensive details about The Amazing World of Gumball, including character guides, locations, fan art, and video games related to the show. It will be used to deepen our understanding of the show, helping to inform the creation of a VR/AR experience. The guide to characters and locations will help us accurately represent the lifestyle of the characters and key places in the virtual gallery.',
     application:
