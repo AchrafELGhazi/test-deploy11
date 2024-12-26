@@ -68,7 +68,7 @@ const BehindTheScenes: React.FC = () => {
                 {!videoError ? (
                   <video
                     ref={videoRef}
-                    src="/assets/Behind the scenes .MOV"
+                    src="/assets/Behindthe-scenes.mp4"
                     controls
                     className="w-full h-full rounded-lg object-cover"
                     onPlay={handleVideoPlay}
