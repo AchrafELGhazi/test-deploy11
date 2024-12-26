@@ -1,18 +1,14 @@
 import React, { useState, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { FaFilm, FaTimes, FaLaughSquint, FaRocket, FaExclamationTriangle } from 'react-icons/fa';
-
+import { FaFilm, FaTimes, FaRocket, FaExclamationTriangle } from 'react-icons/fa';
 
 const BehindTheScenes: React.FC = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [isVideoPlaying, setIsVideoPlaying] = useState(false);
   const [videoError, setVideoError] = useState(false);
   const videoRef = useRef<HTMLVideoElement>(null);
 
   const toggleModal = () => setIsModalOpen(!isModalOpen);
 
-  const handleVideoPlay = () => setIsVideoPlaying(true);
-  const handleVideoPause = () => setIsVideoPlaying(false);
   const handleVideoError = () => setVideoError(true);
 
   const retryVideo = () => {
@@ -57,7 +53,7 @@ const BehindTheScenes: React.FC = () => {
               >
                 <FaTimes size={24} />
               </motion.button>
-              <motion.h2 
+              <motion.h2
                 className="text-3xl font-extrabold mb-4 text-sky-600 text-center"
                 initial={{ y: -20 }}
                 animate={{ y: 0 }}
@@ -71,8 +67,6 @@ const BehindTheScenes: React.FC = () => {
                     src="/assets/Behindthe-scenes.mp4"
                     controls
                     className="w-full h-full rounded-lg object-cover"
-                    onPlay={handleVideoPlay}
-                    onPause={handleVideoPause}
                     onError={handleVideoError}
                   >
                     Your browser does not support the video tag.
@@ -91,27 +85,16 @@ const BehindTheScenes: React.FC = () => {
                     </div>
                   </div>
                 )}
-                {/* {!isVideoPlaying && !videoError && (
-                  <motion.div 
-                    className="absolute inset-0 flex items-center justify-center bg-sky-900 bg-opacity-50 rounded-lg"
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    exit={{ opacity: 0 }}
-                  >
-                    <FaLaughSquint size={64} className="text-white animate-bounce" />
-                  </motion.div>
-                )} */}
               </div>
-              <motion.p 
+              <motion.p
                 className="text-sky-700 text-center text-lg font-medium"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.2 }}
               >
-                Welcome to the wacky wonderland behind our Gumball Fan Project! 
-                Witness our team's descent into cartoon-induced madness. Side effects may include:
+                Welcome to the wacky wonderland behind our Gumball Fan Project! Witness our team's descent into cartoon-induced madness. Side effects may include:
               </motion.p>
-              <motion.ul 
+              <motion.ul
                 className="list-disc list-inside text-sky-600 mt-2 space-y-1"
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}
@@ -122,7 +105,7 @@ const BehindTheScenes: React.FC = () => {
                 <li>An irrational fear of bananas named Joe</li>
                 <li>The ability to see the fourth wall (consult your doctor)</li>
               </motion.ul>
-              <motion.div 
+              <motion.div
                 className="mt-4 text-center"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -147,4 +130,3 @@ const BehindTheScenes: React.FC = () => {
 };
 
 export default BehindTheScenes;
-
