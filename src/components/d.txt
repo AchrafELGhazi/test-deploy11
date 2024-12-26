@@ -1,0 +1,44 @@
+const annotatedBibliography: BibliographySource[] = [
+  {
+    teamMember: 'Achraf EL GHAZI',
+    documentLink:
+      'https://alakhawayn365-my.sharepoint.com/:w:/g/personal/a_elghazi_aui_ma/EUpJZymArzxLscx3e4gG0KIBrU0HIkb4Sl7cltw55r5Tow?e=U8qdin',
+    resources:
+      'Book: Jenkins, Henry. Convergence Culture: Where Old and New Media Collide.',
+    summary:
+      "This foundational text deals with how media consumers engage with each other within participatory culture to create and share interpretations as active fans of content. Jenkins helps me contextualize how The Amazing World of Gumball would enable activities among its fans to create memes, fan fiction, and analysis. I'll be using Jenkins' idea of convergence culture in order to explain how Gumball combines pop culture and humor with the expressed purpose of fostering an interactive fan community.",
+    application:
+      "I will use Jenkins' idea of convergence culture to explain how The Amazing World of Gumball fosters an interactive fan community by combining pop culture and humor.",
+  },
+  {
+    teamMember: 'Rania AMAZOZ',
+    documentLink:
+      'https://alakhawayn365-my.sharepoint.com/:w:/g/personal/a_elghazi_aui_ma/EZos0Fya7cpEkDRmpkhWZW8B2zKdwKt3-PRZQfbN_NOsoQ?e=kxLuXc',
+    resources:
+      'The Amazing World of Gumball Wiki. Fandom. (n.d.). https://theamazingworldofgumball.fandom.com/wiki/The_Amazing_World_of_Gumball_Wiki',
+    summary:
+      'This wiki contains comprehensive details about The Amazing World of Gumball, including character guides, locations, fan art, and video games related to the show. It will be used to deepen our understanding of the show, helping to inform the creation of a VR/AR experience. The guide to characters and locations will help us accurately represent the lifestyle of the characters and key places in the virtual gallery.',
+    application:
+      'This resource will support the creation of a virtual gallery by providing insights into the show’s characters and locations. The fan art and theories gathered here will inform how we present the show’s world and themes in our VR/AR project. We can also explore fan theories like the one on Reddit about the show being a dream of the main character after waking from a coma, which adds a unique layer to the narrative we can explore.',
+  },
+  {
+    teamMember: 'Alyâa ZAHZOUHI',
+    documentLink:
+      'https://alakhawayn365-my.sharepoint.com/:w:/g/personal/a_elghazi_aui_ma/EQt9ydsgz5xDr7oyJW1OaZ4BJULr4h2ZalUpl6H3ryxXRA?e=kkN2gb',
+    resources: 'Social Media Content: TikTok, YouTube, and Patreon',
+    summary:
+      "Fan art and the creation of original characters are key components of modern fandoms, especially on platforms like TikTok and YouTube. These platforms encourage fans to engage with their favorite shows by creating and sharing content such as fan art, parodies, and cosplay videos. The Amazing World of Gumball has inspired numerous fan creations, including memes, character reimaginings, and crossover fan works with other fandoms such as Five Nights at Freddy's. TikTok, in particular, fosters interaction through trends and challenges where fans mimic scenes, do voice overs, or participate in cosplay videos, demonstrating their emotional investment in the show.",
+    application:
+      'This source will be used to explore how Gumball fans use platforms like TikTok and YouTube to create fan art and engage in fandom crossovers, contributing to the broader fan culture around the show. I will also touch on Patreon as a platform where fans can monetize their content, further enhancing the sense of community and interaction among Gumball fans.',
+  },
+  {
+    teamMember: 'Noura KASSAS',
+    documentLink:
+      'https://alakhawayn365-my.sharepoint.com/:f:/g/personal/a_elghazi_aui_ma/EkEbXlKcC4NMgs18JKZLancB6dGbB3Ls-K7UY23I8gAAtw?e=yHno6T',
+    resources: 'Academic Article: The Oxford Bibliographies on Fan Studies.',
+    summary:
+      'This article offers a comprehensive overview of fandom theories, participatory culture, and the relationship between fans and creators. It includes key works by Jenkins and Hills, providing foundational theories that will help us understand how Gumball fans interact with the content and each other. The resource will also be useful in exploring how fans engage with the show through animations, fan art, and digital content creation.',
+    application:
+      'The theoretical insights from this article will support our exploration of how Gumball fans create and share their own animated content, fan art, and fan-made videos. This will help us understand how fan creativity fuels community-building within the Gumball fandom and inspire our own approach to animating and representing the show’s world in the VR/AR project.',
+  },
+];
