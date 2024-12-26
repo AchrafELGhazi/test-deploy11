@@ -4,7 +4,7 @@ import React from 'react';
 const HeroSection: React.FC = () => {
 
   return (
-    <section className='relative text-center py-20 px-4 md:px-20 rounded-xl overflow-hidden bg-gradient-to-br from-sky-600 to-sky-900'>
+    <section className='relative text-center py-20 px-4 md:px-20 rounded-3xl overflow-hidden bg-gradient-to-br from-sky-600 to-sky-900'>
       <motion.h1
         className='text-4xl md:text-6xl mb-4 text-white font-bold z-10 relative'
         initial={{ y: -100, opacity: 0 }}

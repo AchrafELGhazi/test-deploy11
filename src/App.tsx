@@ -19,7 +19,7 @@ const App: React.FC = () => {
     <div>
       <Router>
         <div className="min-h-screen bg-blue-50">
-          <header className="bg-gradient-to-r from-blue-600 via-blue-500 to-blue-400 p-4 sticky top-0 z-50 shadow-lg">
+          <header className="bg-gradient-to-r mt-5 mx-7 rounded-full from-blue-600 via-blue-500 to-blue-400 p-4 sticky top-0 z-50 shadow-lg">
             <div className="container mx-auto flex justify-between items-center">
               <h1 className="text-3xl font-bold text-white flex items-center space-x-2">
                 <div className="animate-spin-slow">
