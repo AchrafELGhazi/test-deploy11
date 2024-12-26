@@ -30,7 +30,7 @@ const HeroSection: React.FC = () => {
         className='relative w-full h-[400px] rounded-xl overflow-hidden shadow-2xl z-10'
       >
         <img
-          src={'/src/assets/1.jpg'}
+          src={'../../assets/1.jpg'}
           alt='Gumball and friends'
           className='w-full h-full object-cover'
         />
